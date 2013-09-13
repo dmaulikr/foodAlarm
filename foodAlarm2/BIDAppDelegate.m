@@ -7,6 +7,7 @@
 //
 
 #import "BIDAppDelegate.h"
+#import "BIDAlarmViewController.h"
 
 @implementation BIDAppDelegate
 
@@ -18,9 +19,22 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    [[NSBundle mainBundle]loadNibNamed:@"TabBarController" owner:self options:nil];
+    self.window.rootViewController = self.rootController; 
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification {
+
+    
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"It's been two hours!" message:@"Time to eat!" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+    
+    [alert show]; 
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -33,6 +47,12 @@
 {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    
+    __block UIBackgroundTaskIdentifier locationUpdater =[[UIApplication sharedApplication]beginBackgroundTaskWithExpirationHandler:^{
+        [[UIApplication sharedApplication] endBackgroundTask:locationUpdater];
+        locationUpdater=UIBackgroundTaskInvalid;
+    } ];
+    
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application

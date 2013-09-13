@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BIDAlarmViewController.h"
 
 @interface BIDAppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -18,5 +19,7 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
+
+@property (strong,nonatomic) IBOutlet UITabBarController *rootController;
 
 @end

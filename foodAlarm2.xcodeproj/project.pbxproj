@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E2B64DC176943650018FFF5 /* Black-Background-Wood-I-640x960-iphone-wallpapers.co_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E2B64DB176943650018FFF5 /* Black-Background-Wood-I-640x960-iphone-wallpapers.co_.jpg */; };
+		3E4A3131176EC74600C392B9 /* greenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4A3130176EC74600C392B9 /* greenButton.png */; };
+		3E4A3133176EC87100C392B9 /* orangeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4A3132176EC87100C392B9 /* orangeButton.png */; };
+		3E4A3139176ED19100C392B9 /* greenButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4A3138176ED19100C392B9 /* greenButtonHighlight.png */; };
+		3E4A313B176ED19700C392B9 /* orangeButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4A313A176ED19700C392B9 /* orangeButtonHighlight.png */; };
+		3E4A313F176FD00C00C392B9 /* 11-clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4A313E176FD00C00C392B9 /* 11-clock.png */; };
+		3E4A3141176FD04100C392B9 /* 48-fork-and-knife.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4A3140176FD04100C392B9 /* 48-fork-and-knife.png */; };
 		3E95AECA17456A580041E813 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E95AEC917456A580041E813 /* UIKit.framework */; };
 		3E95AECC17456A580041E813 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E95AECB17456A580041E813 /* Foundation.framework */; };
 		3E95AECE17456A580041E813 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E95AECD17456A580041E813 /* CoreGraphics.framework */; };
@@ -18,9 +25,22 @@
 		3E95AEE017456A580041E813 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E95AEDF17456A580041E813 /* Default@2x.png */; };
 		3E95AEE217456A580041E813 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E95AEE117456A580041E813 /* Default-568h@2x.png */; };
 		3E95AEE517456A580041E813 /* foodAlarm2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E95AEE317456A580041E813 /* foodAlarm2.xcdatamodeld */; };
+		3E95AEEE17456ACE0041E813 /* BIDAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E95AEEC17456ACE0041E813 /* BIDAlarmViewController.m */; };
+		3E95AEEF17456ACE0041E813 /* BIDAlarmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E95AEED17456ACE0041E813 /* BIDAlarmViewController.xib */; };
+		3E95AEF317456ADB0041E813 /* BIDFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E95AEF117456ADB0041E813 /* BIDFoodViewController.m */; };
+		3E95AEF417456ADB0041E813 /* BIDFoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E95AEF217456ADB0041E813 /* BIDFoodViewController.xib */; };
+		3E95AF0017456BBA0041E813 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E95AEFF17456BBA0041E813 /* TabBarController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E2B64D01766A9A30018FFF5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3E2B64DB176943650018FFF5 /* Black-Background-Wood-I-640x960-iphone-wallpapers.co_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Black-Background-Wood-I-640x960-iphone-wallpapers.co_.jpg"; sourceTree = "<group>"; };
+		3E4A3130176EC74600C392B9 /* greenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButton.png; sourceTree = "<group>"; };
+		3E4A3132176EC87100C392B9 /* orangeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeButton.png; sourceTree = "<group>"; };
+		3E4A3138176ED19100C392B9 /* greenButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButtonHighlight.png; sourceTree = "<group>"; };
+		3E4A313A176ED19700C392B9 /* orangeButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeButtonHighlight.png; sourceTree = "<group>"; };
+		3E4A313E176FD00C00C392B9 /* 11-clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11-clock.png"; sourceTree = "<group>"; };
+		3E4A3140176FD04100C392B9 /* 48-fork-and-knife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "48-fork-and-knife.png"; sourceTree = "<group>"; };
 		3E95AEC517456A580041E813 /* foodAlarm2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodAlarm2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E95AEC917456A580041E813 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3E95AECB17456A580041E813 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +56,13 @@
 		3E95AEDF17456A580041E813 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3E95AEE117456A580041E813 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3E95AEE417456A580041E813 /* foodAlarm2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = foodAlarm2.xcdatamodel; sourceTree = "<group>"; };
+		3E95AEEB17456ACE0041E813 /* BIDAlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDAlarmViewController.h; path = ../BIDAlarmViewController.h; sourceTree = "<group>"; };
+		3E95AEEC17456ACE0041E813 /* BIDAlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDAlarmViewController.m; path = ../BIDAlarmViewController.m; sourceTree = "<group>"; };
+		3E95AEED17456ACE0041E813 /* BIDAlarmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BIDAlarmViewController.xib; path = ../BIDAlarmViewController.xib; sourceTree = "<group>"; };
+		3E95AEF017456ADB0041E813 /* BIDFoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDFoodViewController.h; sourceTree = "<group>"; };
+		3E95AEF117456ADB0041E813 /* BIDFoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDFoodViewController.m; sourceTree = "<group>"; };
+		3E95AEF217456ADB0041E813 /* BIDFoodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDFoodViewController.xib; sourceTree = "<group>"; };
+		3E95AEFF17456BBA0041E813 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +83,7 @@
 		3E95AEBA17456A580041E813 = {
 			isa = PBXGroup;
 			children = (
+				3E2B64D01766A9A30018FFF5 /* AudioToolbox.framework */,
 				3E95AED117456A580041E813 /* foodAlarm2 */,
 				3E95AEC817456A580041E813 /* Frameworks */,
 				3E95AEC617456A580041E813 /* Products */,
@@ -86,6 +114,13 @@
 			children = (
 				3E95AEDA17456A580041E813 /* BIDAppDelegate.h */,
 				3E95AEDB17456A580041E813 /* BIDAppDelegate.m */,
+				3E95AEFF17456BBA0041E813 /* TabBarController.xib */,
+				3E95AEEB17456ACE0041E813 /* BIDAlarmViewController.h */,
+				3E95AEEC17456ACE0041E813 /* BIDAlarmViewController.m */,
+				3E95AEED17456ACE0041E813 /* BIDAlarmViewController.xib */,
+				3E95AEF017456ADB0041E813 /* BIDFoodViewController.h */,
+				3E95AEF117456ADB0041E813 /* BIDFoodViewController.m */,
+				3E95AEF217456ADB0041E813 /* BIDFoodViewController.xib */,
 				3E95AEE317456A580041E813 /* foodAlarm2.xcdatamodeld */,
 				3E95AED217456A580041E813 /* Supporting Files */,
 			);
@@ -97,6 +132,13 @@
 			children = (
 				3E95AED317456A580041E813 /* foodAlarm2-Info.plist */,
 				3E95AED417456A580041E813 /* InfoPlist.strings */,
+				3E4A3138176ED19100C392B9 /* greenButtonHighlight.png */,
+				3E4A313A176ED19700C392B9 /* orangeButtonHighlight.png */,
+				3E4A3140176FD04100C392B9 /* 48-fork-and-knife.png */,
+				3E4A313E176FD00C00C392B9 /* 11-clock.png */,
+				3E4A3130176EC74600C392B9 /* greenButton.png */,
+				3E4A3132176EC87100C392B9 /* orangeButton.png */,
+				3E2B64DB176943650018FFF5 /* Black-Background-Wood-I-640x960-iphone-wallpapers.co_.jpg */,
 				3E95AED717456A580041E813 /* main.m */,
 				3E95AED917456A580041E813 /* foodAlarm2-Prefix.pch */,
 				3E95AEDD17456A580041E813 /* Default.png */,
@@ -162,6 +204,16 @@
 				3E95AEDE17456A580041E813 /* Default.png in Resources */,
 				3E95AEE017456A580041E813 /* Default@2x.png in Resources */,
 				3E95AEE217456A580041E813 /* Default-568h@2x.png in Resources */,
+				3E95AEEF17456ACE0041E813 /* BIDAlarmViewController.xib in Resources */,
+				3E95AEF417456ADB0041E813 /* BIDFoodViewController.xib in Resources */,
+				3E95AF0017456BBA0041E813 /* TabBarController.xib in Resources */,
+				3E2B64DC176943650018FFF5 /* Black-Background-Wood-I-640x960-iphone-wallpapers.co_.jpg in Resources */,
+				3E4A3131176EC74600C392B9 /* greenButton.png in Resources */,
+				3E4A3133176EC87100C392B9 /* orangeButton.png in Resources */,
+				3E4A3139176ED19100C392B9 /* greenButtonHighlight.png in Resources */,
+				3E4A313B176ED19700C392B9 /* orangeButtonHighlight.png in Resources */,
+				3E4A313F176FD00C00C392B9 /* 11-clock.png in Resources */,
+				3E4A3141176FD04100C392B9 /* 48-fork-and-knife.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +227,8 @@
 				3E95AED817456A580041E813 /* main.m in Sources */,
 				3E95AEDC17456A580041E813 /* BIDAppDelegate.m in Sources */,
 				3E95AEE517456A580041E813 /* foodAlarm2.xcdatamodeld in Sources */,
+				3E95AEEE17456ACE0041E813 /* BIDAlarmViewController.m in Sources */,
+				3E95AEF317456ADB0041E813 /* BIDFoodViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +337,7 @@
 				3E95AEEA17456A580041E813 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

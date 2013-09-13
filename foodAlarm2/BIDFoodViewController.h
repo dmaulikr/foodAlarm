@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface BIDFoodViewController : UIViewController
+<UITableViewDataSource,UITableViewDelegate>
+
+@property (copy,nonatomic) NSArray *foods;
+@property (assign, nonatomic) NSUInteger selectedFood; 
 
 @end
